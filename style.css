@@ -26,5 +26,6 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
-video{  max-height: 282px;
+video{
+  max-width: 282px;
 }

@@ -5,7 +5,7 @@ body{
 }
 button{
 
-    padding: .5em 1em;
+    padding: .9em 1em;
     color: #444;
     color: rgba(0,0,0,.8);
     border: 1px solid #999;
@@ -28,4 +28,5 @@ img{
 }
 video{
   max-width: 282px;
+  max-height: 282px;
 }

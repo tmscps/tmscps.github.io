@@ -1,0 +1,28 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+button{
+
+    padding: .5em 1em;
+    color: #444;
+    color: rgba(0,0,0,.8);
+    border: 1px solid #999;
+    border: none transparent;
+    background-color: #e6e6e6;
+    text-decoration: none;
+    border-radius: 2px;
+}
+div{
+  display: contents;
+}
+.Read{
+  display: grid;
+}
+img{
+  max-height: 282px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,22 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 <head>
-  <script src="jquery-1.11.3.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>TMS | CPS</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Pure JS Barcode Reader</h1>
-  <div>Barcode result: <span id="dbr"></span></div>
-  <div class="select">
-    <label for="videoSource">Video source: </label><select id="videoSource"></select>
-  </div>
-  <button id="go">Read Barcode</button>
+  <h1>TMS | CPS</h1>
+  <img src="" id="imgbar" alt="">
+  <div>Title: <span id="title"></span></div>
+  <div>SKU: <span id="sdk"></span></div>
+  <div>Price: <span id="cost"></span></div>
+
   <div>
     <video muted autoplay id="video" playsinline="true"></video>
     <canvas id="pcCanvas" width="640" height="480" style="display: none; float: bottom;"></canvas>
     <canvas id="mobileCanvas" width="240" height="320" style="display: none; float: bottom;"></canvas>
   </div>
+  <div class="Read">
+  <button id="go">Read Barcode</button>
+    <div class="select">
+      <label for="videoSource">Video source: </label><select id="videoSource"></select>
+    </div>
+  <div>Barcode result: <span id="dbr"></span></div>
+    </div>
 </body>
 
 <script async src="zxing.js"></script>
 <script src="video.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="products.js"></script>
 </html>

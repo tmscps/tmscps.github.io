@@ -30,3 +30,12 @@ video{
   max-width: 300px;
   max-height: 282px;
 }
+h1{
+  font-size: 1em;
+  display: inline;
+}
+#imgicon{
+  max-width: 50px;
+  margin: 0;
+  display: inline;
+}
